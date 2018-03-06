@@ -1,0 +1,348 @@
+Feb 27, 2018 11:09:48 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.84
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 19 2018 15:01:35 UTC
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.84.0
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.13.0-32-generic
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/gamut/softwares/jdk1.8.0_161/jre
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_161-b12
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/gamut/softwares/apache-tomcat-7.0.84
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/gamut/softwares/apache-tomcat-7.0.84
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/gamut/softwares/apache-tomcat-7.0.84/conf/logging.properties
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/gamut/softwares/apache-tomcat-7.0.84
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/gamut/softwares/apache-tomcat-7.0.84
+Feb 27, 2018 11:09:49 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/gamut/softwares/apache-tomcat-7.0.84/temp
+Feb 27, 2018 11:09:49 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Feb 27, 2018 11:09:50 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 27, 2018 11:09:50 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 27, 2018 11:09:50 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3225 ms
+Feb 27, 2018 11:09:50 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 27, 2018 11:09:50 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.84
+Feb 27, 2018 11:09:50 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war
+Feb 27, 2018 11:09:59 AM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Feb 27, 2018 11:11:23 AM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name ** used in an <auth-constraint> without being defined in a <security-role>
+Feb 27, 2018 11:11:25 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Feb 27, 2018 11:11:32 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [308] milliseconds.
+Feb 27, 2018 11:11:33 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war has finished in 103,227 ms
+Feb 27, 2018 11:11:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs
+Feb 27, 2018 11:11:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs has finished in 567 ms
+Feb 27, 2018 11:11:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager
+Feb 27, 2018 11:11:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager has finished in 3,918 ms
+Feb 27, 2018 11:11:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples
+Feb 27, 2018 11:11:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples has finished in 1,339 ms
+Feb 27, 2018 11:11:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager
+Feb 27, 2018 11:11:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager has finished in 336 ms
+Feb 27, 2018 11:11:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT
+Feb 27, 2018 11:11:40 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Feb 27, 2018 11:11:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT has finished in 182 ms
+Feb 27, 2018 11:11:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 27, 2018 11:11:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 27, 2018 11:11:40 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 110289 ms
+Feb 27, 2018 11:12:00 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Feb 27, 2018 11:12:08 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Feb 27, 2018 11:12:09 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Feb 27, 2018 11:12:16 AM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+Feb 27, 2018 11:12:18 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Feb 27, 2018 11:12:18 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 11:12:20 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Feb 27, 2018 11:12:20 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Feb 27, 2018 11:12:20 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 39 ms
+Feb 27, 2018 11:12:21 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@647ebc47: display name [Root WebApplicationContext]; startup date [Tue Feb 27 11:12:21 IST 2018]; root of context hierarchy
+Feb 27, 2018 11:12:21 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@647ebc47]: org.springframework.beans.factory.support.DefaultListableBeanFactory@492b7c4b
+Feb 27, 2018 11:12:21 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@492b7c4b: defining beans [authenticationManager]; root of factory hierarchy
+Feb 27, 2018 11:12:21 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@2325ad97: display name [Root WebApplicationContext]; startup date [Tue Feb 27 11:12:21 IST 2018]; root of context hierarchy
+Feb 27, 2018 11:12:21 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@2325ad97]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7cdf362c
+Feb 27, 2018 11:12:21 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7cdf362c: defining beans [filter,legacy]; root of factory hierarchy
+Feb 27, 2018 11:12:21 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Feb 27, 2018 11:12:22 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Feb 27, 2018 11:12:51 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 11:14:51 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 11:15:51 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 11:17:51 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 11:30:51 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 11:31:16 AM hudson.model.Run execute
+INFO: simple #9 main build action completed: FAILURE
+Feb 27, 2018 11:50:32 AM hudson.model.Run execute
+INFO: simple #10 main build action completed: SUCCESS
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.84
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 19 2018 15:01:35 UTC
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.84.0
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.13.0-32-generic
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/gamut/softwares/jdk1.8.0_161/jre
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_161-b12
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/gamut/softwares/apache-tomcat-7.0.84
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/gamut/softwares/apache-tomcat-7.0.84
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/gamut/softwares/apache-tomcat-7.0.84/conf/logging.properties
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/gamut/softwares/apache-tomcat-7.0.84
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/gamut/softwares/apache-tomcat-7.0.84
+Feb 27, 2018 11:54:52 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/gamut/softwares/apache-tomcat-7.0.84/temp
+Feb 27, 2018 11:54:52 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Feb 27, 2018 11:54:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 27, 2018 11:54:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 27, 2018 11:54:58 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 18840 ms
+Feb 27, 2018 11:54:59 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 27, 2018 11:54:59 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.84
+Feb 27, 2018 11:55:00 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war
+Feb 27, 2018 11:55:13 AM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Feb 27, 2018 11:55:27 AM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name ** used in an <auth-constraint> without being defined in a <security-role>
+Feb 27, 2018 11:55:27 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Feb 27, 2018 11:55:32 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war has finished in 32,048 ms
+Feb 27, 2018 11:55:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs
+Feb 27, 2018 11:55:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs has finished in 414 ms
+Feb 27, 2018 11:55:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager
+Feb 27, 2018 11:55:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager has finished in 2,329 ms
+Feb 27, 2018 11:55:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples
+Feb 27, 2018 11:55:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples has finished in 993 ms
+Feb 27, 2018 11:55:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager
+Feb 27, 2018 11:55:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager has finished in 150 ms
+Feb 27, 2018 11:55:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT
+Feb 27, 2018 11:55:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT has finished in 152 ms
+Feb 27, 2018 11:55:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 27, 2018 11:55:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 27, 2018 11:55:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 38176 ms
+Feb 27, 2018 11:55:37 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Feb 27, 2018 11:56:09 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Feb 27, 2018 11:56:29 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Feb 27, 2018 11:56:29 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Feb 27, 2018 11:56:37 AM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+Feb 27, 2018 11:56:38 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Feb 27, 2018 11:56:39 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 11:56:41 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Feb 27, 2018 11:56:41 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Feb 27, 2018 11:56:42 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 270 ms
+Feb 27, 2018 11:56:44 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@66846b97: display name [Root WebApplicationContext]; startup date [Tue Feb 27 11:56:44 IST 2018]; root of context hierarchy
+Feb 27, 2018 11:56:44 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@66846b97]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7e6386b2
+Feb 27, 2018 11:56:44 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e6386b2: defining beans [authenticationManager]; root of factory hierarchy
+Feb 27, 2018 11:56:45 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@67c18834: display name [Root WebApplicationContext]; startup date [Tue Feb 27 11:56:45 IST 2018]; root of context hierarchy
+Feb 27, 2018 11:56:45 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@67c18834]: org.springframework.beans.factory.support.DefaultListableBeanFactory@52907711
+Feb 27, 2018 11:56:45 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@52907711: defining beans [filter,legacy]; root of factory hierarchy
+Feb 27, 2018 11:56:45 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Feb 27, 2018 11:56:45 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 11:56:45 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Feb 27, 2018 11:57:35 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 11:59:35 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 12:01:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 12:01:50 PM org.jenkinsci.plugins.workflow.job.WorkflowRun finish
+INFO: maven test #1 completed: SUCCESS
+Feb 27, 2018 12:14:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 12:16:25 PM org.jenkinsci.plugins.workflow.job.WorkflowRun finish
+INFO: maven test #2 completed: FAILURE
+Feb 27, 2018 12:16:26 PM org.jenkinsci.plugins.workflow.flow.FlowExecutionList unregister
+WARNING: Owner[maven test/2:maven test #2] was not in the list to begin with: []
+Feb 27, 2018 12:38:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 1:02:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 1:26:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 1:50:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 2:14:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 2:24:07 PM hudson.model.Run execute
+INFO: simplewebapp #22 main build action completed: SUCCESS
+Feb 27, 2018 2:26:02 PM hudson.model.Run execute
+INFO: maven artifactory #11 main build action completed: FAILURE
+Feb 27, 2018 2:38:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 3:02:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 3:26:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 3:50:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 3:56:41 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making slave1 offline because it’s not responding
+Feb 27, 2018 4:14:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 4:38:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 4:56:29 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making slave1 offline because it’s not responding
+Feb 27, 2018 5:02:35 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 27, 2018 5:04:30 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Feb 27, 2018 5:04:33 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Feb 27, 2018 5:04:34 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Feb 27, 2018 5:04:50 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Feb 27, 2018 5:04:54 PM jenkins.model.Jenkins$19 onAttained
+INFO: Started termination
+Feb 27, 2018 5:04:55 PM jenkins.model.Jenkins$19 onAttained
+INFO: Completed termination
+Feb 27, 2018 5:04:55 PM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Feb 27, 2018 5:04:56 PM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Feb 27, 2018 5:04:59 PM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Feb 27, 2018 5:05:00 PM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+Feb 27, 2018 5:05:00 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Feb 27, 2018 5:05:01 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#2]] but has failed to stop it. This is very likely to create a memory leak.
+Feb 27, 2018 5:05:01 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#3]] but has failed to stop it. This is very likely to create a memory leak.
+Feb 27, 2018 5:05:01 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#4]] but has failed to stop it. This is very likely to create a memory leak.
+Feb 27, 2018 5:05:01 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [WorkflowRun.copyLogs [#1]] but has failed to stop it. This is very likely to create a memory leak.
+Feb 27, 2018 5:05:01 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [JGit-WorkQueue] but has failed to stop it. This is very likely to create a memory leak.
+Feb 27, 2018 5:05:01 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@387a79f1]) and a value of type [jenkins.security.NonSerializableSecurityContext] (value [jenkins.security.NonSerializableSecurityContext@1f: Authentication: org.acegisecurity.providers.UsernamePasswordAuthenticationToken@1f: Username: SYSTEM; Password: [PROTECTED]; Authenticated: false; Details: null; Not granted any authorities]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Feb 27, 2018 5:05:01 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@387a79f1]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Feb 27, 2018 5:05:09 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Feb 27, 2018 5:05:10 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Feb 27, 2018 5:05:10 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Feb 27, 2018 5:05:10 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

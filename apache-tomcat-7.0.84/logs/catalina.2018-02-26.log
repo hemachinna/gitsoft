@@ -1,0 +1,996 @@
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.84
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 19 2018 15:01:35 UTC
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.84.0
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.13.0-32-generic
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/gamut/softwares/jdk1.8.0_161/jre
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_161-b12
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/gamut/softwares/apache-tomcat-7.0.84
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/gamut/softwares/apache-tomcat-7.0.84
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/gamut/softwares/apache-tomcat-7.0.84/conf/logging.properties
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/gamut/softwares/apache-tomcat-7.0.84
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/gamut/softwares/apache-tomcat-7.0.84
+Feb 26, 2018 12:56:42 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/gamut/softwares/apache-tomcat-7.0.84/temp
+Feb 26, 2018 12:56:42 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Feb 26, 2018 12:56:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 26, 2018 12:56:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 26, 2018 12:56:46 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 6963 ms
+Feb 26, 2018 12:56:46 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 26, 2018 12:56:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.84
+Feb 26, 2018 12:56:46 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war
+Feb 26, 2018 12:56:49 PM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Feb 26, 2018 12:57:19 PM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name ** used in an <auth-constraint> without being defined in a <security-role>
+Feb 26, 2018 12:57:19 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Feb 26, 2018 12:57:24 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war has finished in 37,899 ms
+Feb 26, 2018 12:57:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs
+Feb 26, 2018 12:57:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs has finished in 329 ms
+Feb 26, 2018 12:57:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager
+Feb 26, 2018 12:57:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager has finished in 631 ms
+Feb 26, 2018 12:57:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples
+Feb 26, 2018 12:57:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples has finished in 302 ms
+Feb 26, 2018 12:57:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager
+Feb 26, 2018 12:57:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager has finished in 49 ms
+Feb 26, 2018 12:57:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT
+Feb 26, 2018 12:57:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT has finished in 45 ms
+Feb 26, 2018 12:57:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Feb 26, 2018 12:57:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 26, 2018 12:57:25 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 39721 ms
+Feb 26, 2018 12:57:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Feb 26, 2018 12:57:31 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Feb 26, 2018 12:57:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Feb 26, 2018 12:57:53 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Feb 26, 2018 12:58:23 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+Feb 26, 2018 12:58:34 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Feb 26, 2018 12:58:38 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 12:58:42 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Feb 26, 2018 12:58:43 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Feb 26, 2018 12:58:46 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 12:58:57 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@3c31f841: display name [Root WebApplicationContext]; startup date [Mon Feb 26 12:58:57 IST 2018]; root of context hierarchy
+Feb 26, 2018 12:58:57 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@3c31f841]: org.springframework.beans.factory.support.DefaultListableBeanFactory@183ee6bf
+Feb 26, 2018 12:58:57 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@183ee6bf: defining beans [authenticationManager]; root of factory hierarchy
+Feb 26, 2018 12:58:58 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@7e03599d: display name [Root WebApplicationContext]; startup date [Mon Feb 26 12:58:58 IST 2018]; root of context hierarchy
+Feb 26, 2018 12:58:58 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@7e03599d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4a79803a
+Feb 26, 2018 12:58:58 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4a79803a: defining beans [filter,legacy]; root of factory hierarchy
+Feb 26, 2018 12:58:59 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Feb 26, 2018 12:59:00 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 12:59:02 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Feb 26, 2018 12:59:04 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Feb 26, 2018 12:59:07 PM javax.jmdns.impl.DNSStatefulObject$DefaultImplementation waitForAnnounced
+WARNING: Wait for announced timed out: DNS: 192-168-31-237.local. state: announcing 2 task: Announcer(192-168-31-237.local.) state: announcing 2
+Feb 26, 2018 12:59:07 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+Feb 26, 2018 12:59:09 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+Feb 26, 2018 12:59:10 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+Feb 26, 2018 12:59:13 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tools.JDKInstaller
+Feb 26, 2018 12:59:13 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 29,673 ms
+Feb 26, 2018 1:00:45 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 1:02:45 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 1:02:55 PM org.jfrog.hudson.ArtifactoryServer gatherUserPluginInfo
+WARNING: Failed to obtain user plugin info: Failed to obtain user plugin information. Status code: 400 Response message: {
+  "errors" : [ {
+    "status" : 400,
+    "message" : "This REST API is available only in Artifactory Pro (see: http://www.jfrog.com/addons.php). If you are already running Artifactory Pro please make sure your server is activated with a valid license key.\n"
+  } ]
+}
+Feb 26, 2018 1:03:23 PM hudson.model.Run execute
+INFO: simple #1 main build action completed: FAILURE
+Feb 26, 2018 1:04:39 PM hudson.init.impl.InstallUncaughtExceptionHandler lambda$init$0
+WARNING: null
+javax.servlet.ServletException: org.apache.commons.jelly.JellyTagException: jar:file:/home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins/WEB-INF/lib/jenkins-core-2.104.jar!/lib/form/entry.jelly:74:96: <j:out> java.net.SocketException: Broken pipe (Write failed)
+	at org.kohsuke.stapler.jelly.JellyFacet$1.dispatch(JellyFacet.java:105)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:715)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:845)
+	at org.kohsuke.stapler.MetaClass$5.doDispatch(MetaClass.java:248)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:715)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:845)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:649)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:105)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:51)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:117)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.providers.anonymous.AnonymousProcessingFilter.doFilter(AnonymousProcessingFilter.java:125)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.rememberme.RememberMeProcessingFilter.doFilter(RememberMeProcessingFilter.java:142)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.AbstractProcessingFilter.doFilter(AbstractProcessingFilter.java:271)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:93)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.context.HttpSessionContextIntegrationFilter.doFilter(HttpSessionContextIntegrationFilter.java:249)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:67)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:615)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.jelly.JellyTagException: jar:file:/home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins/WEB-INF/lib/jenkins-core-2.104.jar!/lib/form/entry.jelly:74:96: <j:out> java.net.SocketException: Broken pipe (Write failed)
+	at org.apache.commons.jelly.impl.TagScript.handleException(TagScript.java:726)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:279)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:95)
+	at org.kohsuke.stapler.jelly.IncludeTag.doTag(IncludeTag.java:147)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ForEachTag.doTag(ForEachTag.java:150)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:95)
+	at org.kohsuke.stapler.jelly.IncludeTag.doTag(IncludeTag.java:147)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$1.run(CoreTagLibrary.java:98)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.ReallyStaticTagLibrary$1.run(ReallyStaticTagLibrary.java:99)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.JellyViewScript.run(JellyViewScript.java:95)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:63)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:53)
+	at org.kohsuke.stapler.jelly.JellyFacet$1.dispatch(JellyFacet.java:97)
+	... 65 more
+Caused by: org.apache.catalina.connector.ClientAbortException: java.net.SocketException: Broken pipe (Write failed)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:410)
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:442)
+	at org.apache.tomcat.util.buf.ByteChunk.append(ByteChunk.java:347)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:435)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:423)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:91)
+	at com.jcraft.jzlib.DeflaterOutputStream.deflate(DeflaterOutputStream.java:144)
+	at com.jcraft.jzlib.DeflaterOutputStream.write(DeflaterOutputStream.java:102)
+	at org.kohsuke.stapler.compression.FilterServletOutputStream.write(FilterServletOutputStream.java:41)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker$1.write(DefaultScriptInvoker.java:99)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
+	at org.dom4j.io.XMLWriter.flush(XMLWriter.java:276)
+	at org.apache.commons.jelly.XMLOutput.flush(XMLOutput.java:127)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:271)
+	... 237 more
+Caused by: java.net.SocketException: Broken pipe (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at org.apache.coyote.http11.InternalOutputBuffer.realWriteBytes(InternalOutputBuffer.java:216)
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:442)
+	at org.apache.tomcat.util.buf.ByteChunk.append(ByteChunk.java:347)
+	at org.apache.coyote.http11.InternalOutputBuffer$OutputStreamOutputBuffer.doWrite(InternalOutputBuffer.java:239)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:119)
+	at org.apache.coyote.http11.AbstractOutputBuffer.doWrite(AbstractOutputBuffer.java:192)
+	at org.apache.coyote.Response.doWrite(Response.java:495)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:405)
+	... 255 more
+
+Feb 26, 2018 1:16:45 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 1:40:45 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 2:04:45 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 2:28:45 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 2:51:52 PM hudson.model.Run execute
+INFO: simple/org.mitre:simple-web-app #2 main build action completed: NOT_BUILT
+Feb 26, 2018 2:51:55 PM hudson.model.Run execute
+INFO: simple #2 main build action completed: FAILURE
+Feb 26, 2018 2:52:45 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 3:17:45 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 3:23:12 PM hudson.model.Run execute
+INFO: simple #3 main build action completed: FAILURE
+Feb 26, 2018 3:31:15 PM hudson.model.Run execute
+INFO: simple #4 main build action completed: FAILURE
+Feb 26, 2018 3:40:45 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 3:44:09 PM hudson.model.Run execute
+INFO: simple #5 main build action completed: FAILURE
+Feb 26, 2018 3:44:10 PM hudson.remoting.SynchronousCommandTransport$ReaderThread run
+SEVERE: I/O error in channel Channel to Maven [/home/gamut/softwares/jdk1.8.0_161/bin/java, -cp, /home/gamut/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12-alpha-1.jar:/home/gamut/softwares/apache-maven-3.5.2/boot/plexus-classworlds-2.5.2.jar:/home/gamut/softwares/apache-maven-3.5.2/conf/logging, jenkins.maven3.agent.Maven35Main, /home/gamut/softwares/apache-maven-3.5.2, /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins/WEB-INF/lib/remoting-3.16.jar, /home/gamut/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar, /home/gamut/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar, 41743]
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:77)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2671)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3146)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:858)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:354)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:48)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:35)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:63)
+
+Feb 26, 2018 3:47:25 PM hudson.model.Run execute
+INFO: simple/org.mitre:simple-web-app #6 main build action completed: NOT_BUILT
+Feb 26, 2018 3:47:25 PM hudson.model.Run execute
+INFO: simple #6 main build action completed: FAILURE
+Feb 26, 2018 3:49:22 PM hudson.model.Run execute
+INFO: simple #7 main build action completed: FAILURE
+Feb 26, 2018 3:53:49 PM hudson.model.Run execute
+INFO: simple #8 main build action completed: FAILURE
+Feb 26, 2018 4:03:45 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 4:27:45 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.84
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 19 2018 15:01:35 UTC
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.84.0
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.13.0-32-generic
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/gamut/softwares/jdk1.8.0_161/jre
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_161-b12
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/gamut/softwares/apache-tomcat-7.0.84
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/gamut/softwares/apache-tomcat-7.0.84
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/gamut/softwares/apache-tomcat-7.0.84/conf/logging.properties
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/gamut/softwares/apache-tomcat-7.0.84
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/gamut/softwares/apache-tomcat-7.0.84
+Feb 26, 2018 4:28:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/gamut/softwares/apache-tomcat-7.0.84/temp
+Feb 26, 2018 4:28:47 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Feb 26, 2018 4:28:48 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Feb 26, 2018 4:28:48 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Feb 26, 2018 4:28:48 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Feb 26, 2018 4:28:48 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 26, 2018 4:28:48 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Feb 26, 2018 4:28:48 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Feb 26, 2018 4:28:48 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4484 ms
+Feb 26, 2018 4:28:48 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 26, 2018 4:28:48 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.84
+Feb 26, 2018 4:28:48 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war
+Feb 26, 2018 4:28:55 PM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Feb 26, 2018 4:29:01 PM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name ** used in an <auth-constraint> without being defined in a <security-role>
+Feb 26, 2018 4:29:01 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Feb 26, 2018 4:29:02 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war has finished in 14,175 ms
+Feb 26, 2018 4:29:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs
+Feb 26, 2018 4:29:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs has finished in 125 ms
+Feb 26, 2018 4:29:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager
+Feb 26, 2018 4:29:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager has finished in 994 ms
+Feb 26, 2018 4:29:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples
+Feb 26, 2018 4:29:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples has finished in 396 ms
+Feb 26, 2018 4:29:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager
+Feb 26, 2018 4:29:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager has finished in 64 ms
+Feb 26, 2018 4:29:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT
+Feb 26, 2018 4:29:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT has finished in 42 ms
+Feb 26, 2018 4:29:04 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 16091 ms
+Feb 26, 2018 4:29:04 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:782)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+Feb 26, 2018 4:29:04 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Feb 26, 2018 4:29:04 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Feb 26, 2018 4:29:04 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Feb 26, 2018 4:29:04 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Feb 26, 2018 4:29:04 PM jenkins.model.Jenkins$19 onAttained
+INFO: Started termination
+Feb 26, 2018 4:29:04 PM jenkins.model.Jenkins$19 onTaskFailed
+SEVERE: Failed IOHubProvider.cleanUp
+java.lang.IllegalArgumentException: Unable to inject class jenkins.slaves.IOHubProvider
+	at hudson.init.TaskMethodFinder.lookUp(TaskMethodFinder.java:125)
+	at hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:105)
+	at hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:175)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at jenkins.model.Jenkins$18.execute(Jenkins.java:3275)
+	at org.jvnet.hudson.reactor.Reactor$Node.runIfPossible(Reactor.java:139)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:128)
+	at jenkins.model.Jenkins$18.execute(Jenkins.java:3275)
+	at org.jvnet.hudson.reactor.Reactor$Node.runIfPossible(Reactor.java:139)
+	at org.jvnet.hudson.reactor.Reactor.execute(Reactor.java:263)
+	at jenkins.model.Jenkins._cleanUpRunTerminators(Jenkins.java:3272)
+	at jenkins.model.Jenkins.cleanUp(Jenkins.java:3193)
+	at hudson.WebAppMain.contextDestroyed(WebAppMain.java:379)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5156)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5829)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1716)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Feb 26, 2018 4:29:04 PM jenkins.model.Jenkins$19 onTaskFailed
+SEVERE: Failed NioChannelSelector.cleanUp
+java.lang.IllegalArgumentException: Unable to inject class jenkins.slaves.NioChannelSelector
+	at hudson.init.TaskMethodFinder.lookUp(TaskMethodFinder.java:125)
+	at hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:105)
+	at hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:175)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:282)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:210)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at jenkins.model.Jenkins$18.execute(Jenkins.java:3275)
+	at org.jvnet.hudson.reactor.Reactor$Node.runIfPossible(Reactor.java:139)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:128)
+	at jenkins.model.Jenkins$18.execute(Jenkins.java:3275)
+	at org.jvnet.hudson.reactor.Reactor$Node.runIfPossible(Reactor.java:139)
+	at org.jvnet.hudson.reactor.Reactor.execute(Reactor.java:263)
+	at jenkins.model.Jenkins._cleanUpRunTerminators(Jenkins.java:3272)
+	at jenkins.model.Jenkins.cleanUp(Jenkins.java:3193)
+	at hudson.WebAppMain.contextDestroyed(WebAppMain.java:379)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5156)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5829)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1716)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Feb 26, 2018 4:29:04 PM jenkins.model.Jenkins$19 onAttained
+INFO: Completed termination
+Feb 26, 2018 4:29:04 PM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Feb 26, 2018 4:29:04 PM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Feb 26, 2018 4:29:04 PM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Feb 26, 2018 4:29:05 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Feb 26, 2018 4:29:05 PM hudson.WebAppMain contextDestroyed
+INFO: Shutting down a Jenkins instance that was still starting up
+java.lang.Throwable: reason
+	at hudson.WebAppMain.contextDestroyed(WebAppMain.java:388)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5156)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5829)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1716)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Feb 26, 2018 4:29:05 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [Jenkins initialization thread] but has failed to stop it. This is very likely to create a memory leak.
+Feb 26, 2018 4:29:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5cfdc2de]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Feb 26, 2018 4:29:05 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5cfdc2de]) and a value of type [jenkins.security.NonSerializableSecurityContext] (value [jenkins.security.NonSerializableSecurityContext@1f: Authentication: org.acegisecurity.providers.UsernamePasswordAuthenticationToken@1f: Username: SYSTEM; Password: [PROTECTED]; Authenticated: false; Details: null; Not granted any authorities]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Feb 26, 2018 4:29:05 PM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load javax.annotation.CheckForSigned.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1792)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1750)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.annotation.AnnotationParser.parseSig(AnnotationParser.java:439)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:241)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(AnnotationParser.java:120)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:72)
+	at java.lang.reflect.Executable.declaredAnnotations(Executable.java:599)
+	at java.lang.reflect.Executable.declaredAnnotations(Executable.java:597)
+	at java.lang.reflect.Executable.getAnnotation(Executable.java:570)
+	at java.lang.reflect.Method.getAnnotation(Method.java:622)
+	at java.lang.reflect.AnnotatedElement.isAnnotationPresent(AnnotatedElement.java:258)
+	at java.lang.reflect.AccessibleObject.isAnnotationPresent(AccessibleObject.java:191)
+	at org.jvnet.hudson.annotation_indexer.Index$2$1.listAnnotatedElements(Index.java:119)
+	at org.jvnet.hudson.annotation_indexer.Index$2$1.fetch(Index.java:103)
+	at org.jvnet.hudson.annotation_indexer.Index$2$1.hasNext(Index.java:73)
+	at org.jvnet.hudson.annotation_indexer.SubtypeIterator.fetch(SubtypeIterator.java:18)
+	at org.jvnet.hudson.annotation_indexer.SubtypeIterator.hasNext(SubtypeIterator.java:28)
+	at hudson.init.TaskMethodFinder.discoverTasks(TaskMethodFinder.java:56)
+	at hudson.init.InitializerFinder.discoverTasks(InitializerFinder.java:33)
+	at hudson.init.TaskMethodFinder.discoverTasks(TaskMethodFinder.java:32)
+	at org.jvnet.hudson.reactor.TaskBuilder$2.discoverTasks(TaskBuilder.java:63)
+	at org.jvnet.hudson.reactor.Reactor.<init>(Reactor.java:151)
+	at org.jvnet.hudson.reactor.Reactor.<init>(Reactor.java:156)
+	at jenkins.model.Jenkins$5.<init>(Jenkins.java:1046)
+	at jenkins.model.Jenkins.executeReactor(Jenkins.java:1046)
+	at jenkins.model.Jenkins.<init>(Jenkins.java:899)
+	at hudson.model.Hudson.<init>(Hudson.java:85)
+	at hudson.model.Hudson.<init>(Hudson.java:81)
+	at hudson.WebAppMain$3.run(WebAppMain.java:233)
+
+Feb 26, 2018 4:29:05 PM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load javax.annotation.CheckForSigned.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1792)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1750)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.annotation.AnnotationParser.parseSig(AnnotationParser.java:439)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:241)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(AnnotationParser.java:120)
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:72)
+	at java.lang.reflect.Executable.declaredAnnotations(Executable.java:599)
+	at java.lang.reflect.Executable.declaredAnnotations(Executable.java:597)
+	at java.lang.reflect.Executable.getAnnotation(Executable.java:570)
+	at java.lang.reflect.Method.getAnnotation(Method.java:622)
+	at java.lang.reflect.AnnotatedElement.isAnnotationPresent(AnnotatedElement.java:258)
+	at java.lang.reflect.AccessibleObject.isAnnotationPresent(AccessibleObject.java:191)
+	at org.jvnet.hudson.annotation_indexer.Index$2$1.listAnnotatedElements(Index.java:119)
+	at org.jvnet.hudson.annotation_indexer.Index$2$1.fetch(Index.java:103)
+	at org.jvnet.hudson.annotation_indexer.Index$2$1.hasNext(Index.java:73)
+	at org.jvnet.hudson.annotation_indexer.SubtypeIterator.fetch(SubtypeIterator.java:18)
+	at org.jvnet.hudson.annotation_indexer.SubtypeIterator.hasNext(SubtypeIterator.java:28)
+	at hudson.init.TaskMethodFinder.discoverTasks(TaskMethodFinder.java:56)
+	at hudson.init.InitializerFinder.discoverTasks(InitializerFinder.java:33)
+	at hudson.init.TaskMethodFinder.discoverTasks(TaskMethodFinder.java:32)
+	at org.jvnet.hudson.reactor.TaskBuilder$2.discoverTasks(TaskBuilder.java:63)
+	at org.jvnet.hudson.reactor.Reactor.<init>(Reactor.java:151)
+	at org.jvnet.hudson.reactor.Reactor.<init>(Reactor.java:156)
+	at jenkins.model.Jenkins$5.<init>(Jenkins.java:1046)
+	at jenkins.model.Jenkins.executeReactor(Jenkins.java:1046)
+	at jenkins.model.Jenkins.<init>(Jenkins.java:899)
+	at hudson.model.Hudson.<init>(Hudson.java:85)
+	at hudson.model.Hudson.<init>(Hudson.java:81)
+	at hudson.WebAppMain$3.run(WebAppMain.java:233)
+
+Feb 26, 2018 4:29:05 PM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.sshd.server.SshServer.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1792)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1750)
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.jvnet.hudson.annotation_indexer.Index$2$1.fetch(Index.java:104)
+	at org.jvnet.hudson.annotation_indexer.Index$2$1.hasNext(Index.java:73)
+	at org.jvnet.hudson.annotation_indexer.SubtypeIterator.fetch(SubtypeIterator.java:18)
+	at org.jvnet.hudson.annotation_indexer.SubtypeIterator.hasNext(SubtypeIterator.java:28)
+	at hudson.init.TaskMethodFinder.discoverTasks(TaskMethodFinder.java:56)
+	at hudson.init.InitializerFinder.discoverTasks(InitializerFinder.java:33)
+	at hudson.init.TaskMethodFinder.discoverTasks(TaskMethodFinder.java:32)
+	at org.jvnet.hudson.reactor.TaskBuilder$2.discoverTasks(TaskBuilder.java:63)
+	at org.jvnet.hudson.reactor.Reactor.<init>(Reactor.java:151)
+	at org.jvnet.hudson.reactor.Reactor.<init>(Reactor.java:156)
+	at jenkins.model.Jenkins$5.<init>(Jenkins.java:1046)
+	at jenkins.model.Jenkins.executeReactor(Jenkins.java:1046)
+	at jenkins.model.Jenkins.<init>(Jenkins.java:899)
+	at hudson.model.Hudson.<init>(Hudson.java:85)
+	at hudson.model.Hudson.<init>(Hudson.java:81)
+	at hudson.WebAppMain$3.run(WebAppMain.java:233)
+
+Feb 26, 2018 4:29:05 PM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load jenkins.model.Jenkins$6.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1792)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1750)
+	at jenkins.model.Jenkins.executeReactor(Jenkins.java:1087)
+	at jenkins.model.Jenkins.<init>(Jenkins.java:899)
+	at hudson.model.Hudson.<init>(Hudson.java:85)
+	at hudson.model.Hudson.<init>(Hudson.java:81)
+	at hudson.WebAppMain$3.run(WebAppMain.java:233)
+
+Feb 26, 2018 4:29:05 PM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load hudson.util.HudsonFailedToLoad.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1792)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1750)
+	at hudson.WebAppMain$3.run(WebAppMain.java:247)
+
+Feb 26, 2018 4:29:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Feb 26, 2018 4:29:05 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Feb 26, 2018 4:29:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Feb 26, 2018 4:29:05 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Feb 26, 2018 4:29:58 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.conn.HttpHostConnectException) caught when processing request to {}->http://localhost:8081: Connect to localhost:8081 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+Feb 26, 2018 4:29:58 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {}->http://localhost:8081
+Feb 26, 2018 4:29:58 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.conn.HttpHostConnectException) caught when processing request to {}->http://localhost:8081: Connect to localhost:8081 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+Feb 26, 2018 4:29:58 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {}->http://localhost:8081
+Feb 26, 2018 4:29:58 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.conn.HttpHostConnectException) caught when processing request to {}->http://localhost:8081: Connect to localhost:8081 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+Feb 26, 2018 4:29:58 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {}->http://localhost:8081
+Feb 26, 2018 4:38:43 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Feb 26, 2018 4:38:55 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 11,165 ms
+Feb 26, 2018 4:50:45 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Feb 26, 2018 4:57:54 PM hudson.node_monitors.ResponseTimeMonitor$1 monitor
+WARNING: Making slave1 offline because it’s not responding
+Feb 26, 2018 4:59:48 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Feb 26, 2018 4:59:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Feb 26, 2018 4:59:51 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Feb 26, 2018 5:00:04 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Feb 26, 2018 5:00:10 PM jenkins.model.Jenkins$19 onAttained
+INFO: Started termination
+Feb 26, 2018 5:00:11 PM jenkins.model.Jenkins$19 onAttained
+INFO: Completed termination
+Feb 26, 2018 5:00:11 PM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Feb 26, 2018 5:00:12 PM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Feb 26, 2018 5:00:16 PM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Feb 26, 2018 5:00:16 PM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+Feb 26, 2018 5:00:16 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Feb 26, 2018 5:00:16 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#1]] but has failed to stop it. This is very likely to create a memory leak.
+Feb 26, 2018 5:00:16 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#2]] but has failed to stop it. This is very likely to create a memory leak.
+Feb 26, 2018 5:00:16 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#3]] but has failed to stop it. This is very likely to create a memory leak.
+Feb 26, 2018 5:00:16 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/jenkins] appears to have started a thread named [JGit-WorkQueue] but has failed to stop it. This is very likely to create a memory leak.
+Feb 26, 2018 5:00:16 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@20e689bf]) and a value of type [jenkins.security.NonSerializableSecurityContext] (value [jenkins.security.NonSerializableSecurityContext@1f: Authentication: org.acegisecurity.providers.UsernamePasswordAuthenticationToken@1f: Username: SYSTEM; Password: [PROTECTED]; Authenticated: false; Details: null; Not granted any authorities]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Feb 26, 2018 5:00:16 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@20e689bf]) and a value of type [jenkins.security.NonSerializableSecurityContext] (value [jenkins.security.NonSerializableSecurityContext@1f: Authentication: org.acegisecurity.providers.UsernamePasswordAuthenticationToken@1f: Username: SYSTEM; Password: [PROTECTED]; Authenticated: false; Details: null; Not granted any authorities]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Feb 26, 2018 5:00:16 PM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@20e689bf]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Feb 26, 2018 5:00:18 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Feb 26, 2018 5:00:18 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Feb 26, 2018 5:00:19 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Feb 26, 2018 5:00:19 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

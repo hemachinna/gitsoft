@@ -1,0 +1,1006 @@
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.84
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 19 2018 15:01:35 UTC
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.84.0
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.13.0-32-generic
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/gamut/softwares/jdk1.8.0_161/jre
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_161-b12
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/gamut/softwares/apache-tomcat-7.0.84/conf/logging.properties
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 10:25:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/gamut/softwares/apache-tomcat-7.0.84/temp
+Mar 03, 2018 10:25:07 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Mar 03, 2018 10:25:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Mar 03, 2018 10:25:15 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 03, 2018 10:25:15 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 15285 ms
+Mar 03, 2018 10:25:15 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 03, 2018 10:25:15 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.84
+Mar 03, 2018 10:25:17 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war
+Mar 03, 2018 10:25:33 AM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Mar 03, 2018 10:27:23 AM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name ** used in an <auth-constraint> without being defined in a <security-role>
+Mar 03, 2018 10:27:31 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 03, 2018 10:27:54 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [338] milliseconds.
+Mar 03, 2018 10:27:56 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war has finished in 159,612 ms
+Mar 03, 2018 10:27:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs
+Mar 03, 2018 10:27:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs has finished in 2,015 ms
+Mar 03, 2018 10:27:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager
+Mar 03, 2018 10:28:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager has finished in 8,655 ms
+Mar 03, 2018 10:28:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples
+Mar 03, 2018 10:28:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples has finished in 5,319 ms
+Mar 03, 2018 10:28:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager
+Mar 03, 2018 10:28:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager has finished in 318 ms
+Mar 03, 2018 10:28:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT
+Mar 03, 2018 10:28:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT has finished in 159 ms
+Mar 03, 2018 10:28:13 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Mar 03, 2018 10:28:13 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 03, 2018 10:28:13 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 178403 ms
+Mar 03, 2018 10:28:21 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 03, 2018 10:29:19 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 03, 2018 10:30:02 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 03, 2018 10:30:02 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 03, 2018 10:30:09 AM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+Mar 03, 2018 10:30:11 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 03, 2018 10:30:12 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 10:30:15 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 03, 2018 10:30:15 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Mar 03, 2018 10:30:15 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 78 ms
+Mar 03, 2018 10:30:16 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@7bb8ce10: display name [Root WebApplicationContext]; startup date [Sat Mar 03 10:30:16 IST 2018]; root of context hierarchy
+Mar 03, 2018 10:30:16 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@7bb8ce10]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7bcf7bc8
+Mar 03, 2018 10:30:16 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7bcf7bc8: defining beans [authenticationManager]; root of factory hierarchy
+Mar 03, 2018 10:30:18 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@2ec1c05: display name [Root WebApplicationContext]; startup date [Sat Mar 03 10:30:18 IST 2018]; root of context hierarchy
+Mar 03, 2018 10:30:18 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@2ec1c05]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7df524dd
+Mar 03, 2018 10:30:18 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7df524dd: defining beans [filter,legacy]; root of factory hierarchy
+Mar 03, 2018 10:30:19 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 03, 2018 10:30:19 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 10:30:19 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Mar 03, 2018 10:30:49 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 10:32:49 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 10:34:49 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 10:39:49 AM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 10:39:50 AM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 10:44:49 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 10:52:09 AM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 10:52:11 AM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 10:55:13 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Fingerprint cleanup
+Mar 03, 2018 10:55:16 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Fingerprint cleanup. 3,618 ms
+Mar 03, 2018 11:00:21 AM hudson.model.Run execute
+INFO: nexus project #1 main build action completed: FAILURE
+Mar 03, 2018 11:03:09 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 11:03:09 AM hudson.model.Run execute
+INFO: nexus project #2 main build action completed: FAILURE
+Mar 03, 2018 11:26:49 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 11:42:07 AM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 11:42:10 AM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 11:42:53 AM hudson.model.Run execute
+INFO: nexus project #5 main build action completed: FAILURE
+Mar 03, 2018 11:45:54 AM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 11:45:54 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 11:45:56 AM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 11:46:29 AM hudson.model.Run execute
+INFO: nexus project #6 main build action completed: FAILURE
+Mar 03, 2018 11:48:40 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of nexus-jenkins-plugin on behalf of admin
+Mar 03, 2018 11:48:40 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading nexus-jenkins-plugin
+Mar 03, 2018 11:48:40 AM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /home/gamut/.jenkins/plugins/nexus-jenkins-plugin.jpi
+Mar 03, 2018 11:49:15 AM jenkins.model.Jenkins$23 run
+SEVERE: Restarting VM as requested by admin
+Mar 03, 2018 11:49:15 AM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Mar 03, 2018 11:49:16 AM jenkins.model.Jenkins$19 onAttained
+INFO: Started termination
+Mar 03, 2018 11:49:16 AM jenkins.model.Jenkins$19 onAttained
+INFO: Completed termination
+Mar 03, 2018 11:49:16 AM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Mar 03, 2018 11:49:17 AM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Mar 03, 2018 11:49:20 AM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Mar 03, 2018 11:49:20 AM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+Mar 03, 2018 11:49:20 AM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.84
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 19 2018 15:01:35 UTC
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.84.0
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.13.0-32-generic
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/gamut/softwares/jdk1.8.0_161/jre
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_161-b12
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/gamut/softwares/apache-tomcat-7.0.84/conf/logging.properties
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/gamut/softwares/apache-tomcat-7.0.84/temp
+Mar 03, 2018 11:49:33 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Mar 03, 2018 11:49:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Mar 03, 2018 11:49:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 03, 2018 11:49:34 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4471 ms
+Mar 03, 2018 11:49:34 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 03, 2018 11:49:34 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.84
+Mar 03, 2018 11:49:35 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war
+Mar 03, 2018 11:49:37 AM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Mar 03, 2018 11:49:43 AM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name ** used in an <auth-constraint> without being defined in a <security-role>
+Mar 03, 2018 11:49:43 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 03, 2018 11:49:44 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war has finished in 9,566 ms
+Mar 03, 2018 11:49:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs
+Mar 03, 2018 11:49:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs has finished in 92 ms
+Mar 03, 2018 11:49:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager
+Mar 03, 2018 11:49:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager has finished in 956 ms
+Mar 03, 2018 11:49:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples
+Mar 03, 2018 11:49:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples has finished in 288 ms
+Mar 03, 2018 11:49:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager
+Mar 03, 2018 11:49:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager has finished in 52 ms
+Mar 03, 2018 11:49:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT
+Mar 03, 2018 11:49:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT has finished in 36 ms
+Mar 03, 2018 11:49:46 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Mar 03, 2018 11:49:46 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 03, 2018 11:49:46 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11403 ms
+Mar 03, 2018 11:49:47 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 03, 2018 11:50:02 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 03, 2018 11:50:09 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 03, 2018 11:50:09 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 03, 2018 11:50:12 AM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+Mar 03, 2018 11:50:12 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 03, 2018 11:50:12 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 11:50:13 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 03, 2018 11:50:13 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Mar 03, 2018 11:50:13 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 67 ms
+Mar 03, 2018 11:50:14 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@1e1ea49: display name [Root WebApplicationContext]; startup date [Sat Mar 03 11:50:14 IST 2018]; root of context hierarchy
+Mar 03, 2018 11:50:14 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@1e1ea49]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4028b5a0
+Mar 03, 2018 11:50:14 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4028b5a0: defining beans [authenticationManager]; root of factory hierarchy
+Mar 03, 2018 11:50:14 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@5ca43c97: display name [Root WebApplicationContext]; startup date [Sat Mar 03 11:50:14 IST 2018]; root of context hierarchy
+Mar 03, 2018 11:50:14 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@5ca43c97]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb502f
+Mar 03, 2018 11:50:14 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cb502f: defining beans [filter,legacy]; root of factory hierarchy
+Mar 03, 2018 11:50:14 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 03, 2018 11:50:15 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Mar 03, 2018 11:50:47 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 11:51:44 AM hudson.model.Run execute
+INFO: nexus project #7 main build action completed: SUCCESS
+Mar 03, 2018 11:52:18 AM hudson.widgets.RenderOnDemandClosure$1 generateResponse
+WARNING: Failed to evaluate the template closure
+org.apache.commons.jelly.JellyTagException: jar:file:/home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins/WEB-INF/lib/jenkins-core-2.104.jar!/lib/form/hetero-list.jelly:131:100: <st:include> org.apache.commons.jelly.JellyTagException: jar:file:/home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins/WEB-INF/lib/jenkins-core-2.104.jar!/lib/form/section.jelly:48:21: <d:invokeBody> Cannot invoke method size() on null object
+	at org.apache.commons.jelly.impl.TagScript.handleException(TagScript.java:726)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:281)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.OtherwiseTag.doTag(OtherwiseTag.java:41)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:63)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:53)
+	at hudson.widgets.RenderOnDemandClosure$1.generateResponse(RenderOnDemandClosure.java:123)
+	at org.kohsuke.stapler.HttpResponseRenderer$Default.handleHttpResponse(HttpResponseRenderer.java:124)
+	at org.kohsuke.stapler.HttpResponseRenderer$Default.generateResponse(HttpResponseRenderer.java:69)
+	at org.kohsuke.stapler.Function.renderResponse(Function.java:136)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:119)
+	at org.kohsuke.stapler.MetaClass$JavaScriptProxyMethodDispatcher.doDispatch(MetaClass.java:473)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:715)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:845)
+	at org.kohsuke.stapler.MetaClass$10.dispatch(MetaClass.java:374)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:715)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:845)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:782)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:845)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:649)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:199)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:51)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:117)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.providers.anonymous.AnonymousProcessingFilter.doFilter(AnonymousProcessingFilter.java:125)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.rememberme.RememberMeProcessingFilter.doFilter(RememberMeProcessingFilter.java:142)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.AbstractProcessingFilter.doFilter(AbstractProcessingFilter.java:271)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:93)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.context.HttpSessionContextIntegrationFilter.doFilter(HttpSessionContextIntegrationFilter.java:249)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:67)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:615)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: org.apache.commons.jelly.JellyTagException: jar:file:/home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins/WEB-INF/lib/jenkins-core-2.104.jar!/lib/form/section.jelly:48:21: <d:invokeBody> Cannot invoke method size() on null object
+	at org.kohsuke.stapler.jelly.groovy.JellyBuilder.doInvokeMethod(JellyBuilder.java:280)
+	at org.kohsuke.stapler.jelly.groovy.Namespace$ProxyImpl.invoke(Namespace.java:92)
+	at com.sun.proxy.$Proxy68.section(Unknown Source)
+	at lib.FormTagLib$section$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.sonatype.nexus.ci.nxrm.NexusPublisherBuildStep.config.run(config.groovy:15)
+	at org.kohsuke.stapler.jelly.groovy.GroovierJellyScript.run(GroovierJellyScript.java:74)
+	at org.kohsuke.stapler.jelly.groovy.GroovierJellyScript.run(GroovierJellyScript.java:62)
+	at org.kohsuke.stapler.jelly.IncludeTag.doTag(IncludeTag.java:147)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	... 90 more
+Caused by: org.apache.commons.jelly.JellyTagException: jar:file:/home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins/WEB-INF/lib/jenkins-core-2.104.jar!/lib/form/section.jelly:48:21: <d:invokeBody> Cannot invoke method size() on null object
+	at org.apache.commons.jelly.impl.TagScript.handleException(TagScript.java:726)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:281)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.kohsuke.stapler.jelly.groovy.JellyBuilder.doInvokeMethod(JellyBuilder.java:276)
+	... 101 more
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at com.sonatype.nexus.ci.util.NxrmUtil.hasNexusRepositoryManagerConfiguration(NxrmUtil.groovy:19)
+	at com.sonatype.nexus.ci.util.NxrmUtil$hasNexusRepositoryManagerConfiguration.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at com.sonatype.nexus.ci.nxrm.NexusPublisherBuildStep.config$_run_closure1.doCall(config.groovy:16)
+	at com.sonatype.nexus.ci.nxrm.NexusPublisherBuildStep.config$_run_closure1.doCall(config.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:408)
+	at org.kohsuke.stapler.jelly.groovy.JellyBuilder$1.run(JellyBuilder.java:264)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	... 119 more
+
+Mar 03, 2018 11:52:25 AM hudson.widgets.RenderOnDemandClosure$1 generateResponse
+WARNING: Failed to evaluate the template closure
+org.apache.commons.jelly.JellyTagException: jar:file:/home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins/WEB-INF/lib/jenkins-core-2.104.jar!/lib/form/hetero-list.jelly:131:100: <st:include> org.apache.commons.jelly.JellyTagException: jar:file:/home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins/WEB-INF/lib/jenkins-core-2.104.jar!/lib/form/section.jelly:48:21: <d:invokeBody> Cannot invoke method size() on null object
+	at org.apache.commons.jelly.impl.TagScript.handleException(TagScript.java:726)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:281)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.OtherwiseTag.doTag(OtherwiseTag.java:41)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:63)
+	at org.kohsuke.stapler.jelly.DefaultScriptInvoker.invokeScript(DefaultScriptInvoker.java:53)
+	at hudson.widgets.RenderOnDemandClosure$1.generateResponse(RenderOnDemandClosure.java:123)
+	at org.kohsuke.stapler.HttpResponseRenderer$Default.handleHttpResponse(HttpResponseRenderer.java:124)
+	at org.kohsuke.stapler.HttpResponseRenderer$Default.generateResponse(HttpResponseRenderer.java:69)
+	at org.kohsuke.stapler.Function.renderResponse(Function.java:136)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:119)
+	at org.kohsuke.stapler.MetaClass$JavaScriptProxyMethodDispatcher.doDispatch(MetaClass.java:473)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:715)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:845)
+	at org.kohsuke.stapler.MetaClass$10.dispatch(MetaClass.java:374)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:715)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:845)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:782)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:845)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:649)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:199)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:51)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:117)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.providers.anonymous.AnonymousProcessingFilter.doFilter(AnonymousProcessingFilter.java:125)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.rememberme.RememberMeProcessingFilter.doFilter(RememberMeProcessingFilter.java:142)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.AbstractProcessingFilter.doFilter(AbstractProcessingFilter.java:271)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:93)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.context.HttpSessionContextIntegrationFilter.doFilter(HttpSessionContextIntegrationFilter.java:249)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:67)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:615)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: org.apache.commons.jelly.JellyTagException: jar:file:/home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins/WEB-INF/lib/jenkins-core-2.104.jar!/lib/form/section.jelly:48:21: <d:invokeBody> Cannot invoke method size() on null object
+	at org.kohsuke.stapler.jelly.groovy.JellyBuilder.doInvokeMethod(JellyBuilder.java:280)
+	at org.kohsuke.stapler.jelly.groovy.Namespace$ProxyImpl.invoke(Namespace.java:92)
+	at com.sun.proxy.$Proxy68.section(Unknown Source)
+	at lib.FormTagLib$section$7.call(Unknown Source)
+	at com.sonatype.nexus.ci.nxrm.NexusPublisherBuildStep.config.run(config.groovy:15)
+	at org.kohsuke.stapler.jelly.groovy.GroovierJellyScript.run(GroovierJellyScript.java:74)
+	at org.kohsuke.stapler.jelly.groovy.GroovierJellyScript.run(GroovierJellyScript.java:62)
+	at org.kohsuke.stapler.jelly.IncludeTag.doTag(IncludeTag.java:147)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	... 90 more
+Caused by: org.apache.commons.jelly.JellyTagException: jar:file:/home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins/WEB-INF/lib/jenkins-core-2.104.jar!/lib/form/section.jelly:48:21: <d:invokeBody> Cannot invoke method size() on null object
+	at org.apache.commons.jelly.impl.TagScript.handleException(TagScript.java:726)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:281)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.WhenTag.doTag(WhenTag.java:46)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.TagSupport.invokeBody(TagSupport.java:161)
+	at org.apache.commons.jelly.tags.core.ChooseTag.doTag(ChooseTag.java:38)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.apache.commons.jelly.impl.ScriptBlock.run(ScriptBlock.java:95)
+	at org.apache.commons.jelly.tags.core.CoreTagLibrary$2.run(CoreTagLibrary.java:105)
+	at org.kohsuke.stapler.jelly.CallTagLibScript.run(CallTagLibScript.java:120)
+	at org.kohsuke.stapler.jelly.groovy.JellyBuilder.doInvokeMethod(JellyBuilder.java:276)
+	... 98 more
+Caused by: java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at com.sonatype.nexus.ci.util.NxrmUtil.hasNexusRepositoryManagerConfiguration(NxrmUtil.groovy:19)
+	at com.sonatype.nexus.ci.util.NxrmUtil$hasNexusRepositoryManagerConfiguration.call(Unknown Source)
+	at com.sonatype.nexus.ci.nxrm.NexusPublisherBuildStep.config$_run_closure1.doCall(config.groovy:16)
+	at com.sonatype.nexus.ci.nxrm.NexusPublisherBuildStep.config$_run_closure1.doCall(config.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:408)
+	at org.kohsuke.stapler.jelly.groovy.JellyBuilder$1.run(JellyBuilder.java:264)
+	at org.kohsuke.stapler.jelly.CallTagLibScript$1.run(CallTagLibScript.java:99)
+	at org.apache.commons.jelly.tags.define.InvokeBodyTag.doTag(InvokeBodyTag.java:91)
+	at org.apache.commons.jelly.impl.TagScript.run(TagScript.java:269)
+	... 116 more
+
+Mar 03, 2018 11:52:47 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 11:52:53 AM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Nexus Platform on behalf of admin
+Mar 03, 2018 11:52:56 AM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Nexus Platform
+Mar 03, 2018 11:53:21 AM jenkins.model.Jenkins$23 run
+SEVERE: Restarting VM as requested by admin
+Mar 03, 2018 11:53:21 AM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Mar 03, 2018 11:53:21 AM jenkins.model.Jenkins$19 onAttained
+INFO: Started termination
+Mar 03, 2018 11:53:21 AM jenkins.model.Jenkins$19 onAttained
+INFO: Completed termination
+Mar 03, 2018 11:53:21 AM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Mar 03, 2018 11:53:22 AM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Mar 03, 2018 11:53:22 AM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Mar 03, 2018 11:53:22 AM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+Mar 03, 2018 11:53:22 AM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.84
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 19 2018 15:01:35 UTC
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.84.0
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.13.0-32-generic
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/gamut/softwares/jdk1.8.0_161/jre
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_161-b12
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/gamut/softwares/apache-tomcat-7.0.84/conf/logging.properties
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 11:53:27 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/gamut/softwares/apache-tomcat-7.0.84/temp
+Mar 03, 2018 11:53:27 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Mar 03, 2018 11:53:28 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Mar 03, 2018 11:53:28 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 03, 2018 11:53:28 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3315 ms
+Mar 03, 2018 11:53:28 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 03, 2018 11:53:28 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.84
+Mar 03, 2018 11:53:28 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war
+Mar 03, 2018 11:53:30 AM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Mar 03, 2018 11:53:37 AM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name ** used in an <auth-constraint> without being defined in a <security-role>
+Mar 03, 2018 11:53:37 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 03, 2018 11:53:38 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war has finished in 10,372 ms
+Mar 03, 2018 11:53:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs
+Mar 03, 2018 11:53:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs has finished in 94 ms
+Mar 03, 2018 11:53:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager
+Mar 03, 2018 11:53:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager has finished in 648 ms
+Mar 03, 2018 11:53:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples
+Mar 03, 2018 11:53:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples has finished in 323 ms
+Mar 03, 2018 11:53:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager
+Mar 03, 2018 11:53:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager has finished in 67 ms
+Mar 03, 2018 11:53:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT
+Mar 03, 2018 11:53:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT has finished in 97 ms
+Mar 03, 2018 11:53:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Mar 03, 2018 11:53:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 03, 2018 11:53:40 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11943 ms
+Mar 03, 2018 11:53:41 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 03, 2018 11:53:55 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 03, 2018 11:54:01 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 03, 2018 11:54:01 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 03, 2018 11:54:03 AM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+Mar 03, 2018 11:54:04 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 03, 2018 11:54:04 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 11:54:05 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 03, 2018 11:54:05 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Mar 03, 2018 11:54:05 AM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 38 ms
+Mar 03, 2018 11:54:05 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@a2ce33c: display name [Root WebApplicationContext]; startup date [Sat Mar 03 11:54:05 IST 2018]; root of context hierarchy
+Mar 03, 2018 11:54:05 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@a2ce33c]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5fe1c85f
+Mar 03, 2018 11:54:05 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5fe1c85f: defining beans [authenticationManager]; root of factory hierarchy
+Mar 03, 2018 11:54:06 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@219c371b: display name [Root WebApplicationContext]; startup date [Sat Mar 03 11:54:06 IST 2018]; root of context hierarchy
+Mar 03, 2018 11:54:06 AM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@219c371b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@2277a98e
+Mar 03, 2018 11:54:06 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2277a98e: defining beans [filter,legacy]; root of factory hierarchy
+Mar 03, 2018 11:54:06 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 03, 2018 11:54:06 AM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Mar 03, 2018 11:54:33 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 11:56:31 AM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 11:56:31 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 11:56:32 AM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 11:58:33 AM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 12:00:33 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 12:03:09 PM hudson.Launcher$ProcStarter join
+WARNING: Process hudson.Proc$LocalProc@30693a1e has not finished after the join() method completion
+Mar 03, 2018 12:03:09 PM hudson.model.Run execute
+INFO: nexus project #9 aborted
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.UNIXProcess.waitFor(UNIXProcess.java:395)
+	at hudson.Proc$LocalProc.join(Proc.java:324)
+	at hudson.Launcher$ProcStarter.join(Launcher.java:474)
+	at hudson.tasks.Maven.perform(Maven.java:367)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1727)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+
+Mar 03, 2018 12:06:36 PM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 12:06:37 PM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 12:10:33 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 12:13:30 PM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 12:13:32 PM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 12:15:55 PM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 12:15:56 PM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 12:21:43 PM hudson.model.Run execute
+INFO: simple #15 main build action completed: SUCCESS
+Mar 03, 2018 12:25:33 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 12:29:29 PM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 12:29:30 PM hudson.ivy.IvyBuildTrigger$DescriptorImpl configure
+INFO: IvyConfigurations: 0
+Mar 03, 2018 12:44:33 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 12:49:38 PM hudson.model.Run execute
+INFO: simple #20 main build action completed: FAILURE
+Mar 03, 2018 12:51:11 PM hudson.model.Run execute
+INFO: simple #21 main build action completed: FAILURE
+Mar 03, 2018 12:52:35 PM hudson.model.Run execute
+INFO: simple #22 main build action completed: FAILURE
+Mar 03, 2018 12:53:42 PM hudson.model.Run execute
+INFO: simple #23 main build action completed: FAILURE
+Mar 03, 2018 12:54:39 PM hudson.model.Run execute
+INFO: simple #24 main build action completed: FAILURE
+Mar 03, 2018 1:01:56 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Starting the installation of Nexus Artifact Uploader on behalf of admin
+Mar 03, 2018 1:02:00 PM hudson.model.UpdateCenter$UpdateCenterConfiguration download
+INFO: Downloading Nexus Artifact Uploader
+Mar 03, 2018 1:02:05 PM hudson.PluginManager dynamicLoad
+INFO: Attempting to dynamic load /home/gamut/.jenkins/plugins/nexus-artifact-uploader.jpi
+Mar 03, 2018 1:02:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 03, 2018 1:02:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 03, 2018 1:02:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 03, 2018 1:02:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 03, 2018 1:02:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 03, 2018 1:02:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 03, 2018 1:02:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 03, 2018 1:02:09 PM hudson.PluginManager dynamicLoad
+INFO: Plugin nexus-artifact-uploader:2.10 dynamically installed
+Mar 03, 2018 1:02:09 PM hudson.model.UpdateCenter$DownloadJob run
+INFO: Installation successful: Nexus Artifact Uploader
+Mar 03, 2018 1:03:18 PM jenkins.model.Jenkins$23 run
+SEVERE: Restarting VM as requested by admin
+Mar 03, 2018 1:03:18 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Mar 03, 2018 1:03:19 PM jenkins.model.Jenkins$19 onAttained
+INFO: Started termination
+Mar 03, 2018 1:03:19 PM jenkins.model.Jenkins$19 onAttained
+INFO: Completed termination
+Mar 03, 2018 1:03:19 PM jenkins.model.Jenkins _cleanUpDisconnectComputers
+INFO: Starting node disconnection
+Mar 03, 2018 1:03:19 PM jenkins.model.Jenkins _cleanUpShutdownPluginManager
+INFO: Stopping plugin manager
+Mar 03, 2018 1:03:20 PM jenkins.model.Jenkins _cleanUpPersistQueue
+INFO: Persisting build queue
+Mar 03, 2018 1:03:21 PM jenkins.model.Jenkins _cleanUpAwaitDisconnects
+INFO: Waiting for node disconnection completion
+Mar 03, 2018 1:03:21 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.84
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 19 2018 15:01:35 UTC
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.84.0
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.13.0-32-generic
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/gamut/softwares/jdk1.8.0_161/jre
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_161-b12
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/gamut/softwares/apache-tomcat-7.0.84/conf/logging.properties
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/gamut/softwares/apache-tomcat-7.0.84
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/gamut/softwares/apache-tomcat-7.0.84/temp
+Mar 03, 2018 1:03:24 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Mar 03, 2018 1:03:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Mar 03, 2018 1:03:24 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 03, 2018 1:03:24 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1923 ms
+Mar 03, 2018 1:03:25 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 03, 2018 1:03:25 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.84
+Mar 03, 2018 1:03:25 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war
+Mar 03, 2018 1:03:25 PM org.apache.catalina.deploy.WebXml setVersion
+WARNING: Unknown version string [3.1]. Default version will be used.
+Mar 03, 2018 1:03:31 PM org.apache.catalina.startup.ContextConfig validateSecurityRoles
+WARNING: Security role name ** used in an <auth-constraint> without being defined in a <security-role>
+Mar 03, 2018 1:03:31 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 03, 2018 1:03:32 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/gamut/softwares/apache-tomcat-7.0.84/webapps/jenkins.war has finished in 7,600 ms
+Mar 03, 2018 1:03:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs
+Mar 03, 2018 1:03:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/docs has finished in 108 ms
+Mar 03, 2018 1:03:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager
+Mar 03, 2018 1:03:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/host-manager has finished in 732 ms
+Mar 03, 2018 1:03:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples
+Mar 03, 2018 1:03:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/examples has finished in 343 ms
+Mar 03, 2018 1:03:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager
+Mar 03, 2018 1:03:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/manager has finished in 42 ms
+Mar 03, 2018 1:03:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT
+Mar 03, 2018 1:03:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/gamut/softwares/apache-tomcat-7.0.84/webapps/ROOT has finished in 34 ms
+Mar 03, 2018 1:03:34 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Mar 03, 2018 1:03:34 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 03, 2018 1:03:34 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9120 ms
+Mar 03, 2018 1:03:35 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Mar 03, 2018 1:03:48 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Mar 03, 2018 1:03:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Mar 03, 2018 1:03:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Mar 03, 2018 1:03:57 PM hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+INFO: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+Mar 03, 2018 1:03:58 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Mar 03, 2018 1:03:58 PM hudson.slaves.SlaveComputer tryReconnect
+INFO: Attempting to reconnect slave1
+Mar 03, 2018 1:04:00 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Mar 03, 2018 1:04:00 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Mar 03, 2018 1:04:00 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 28 ms
+Mar 03, 2018 1:04:00 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@2092e040: display name [Root WebApplicationContext]; startup date [Sat Mar 03 13:04:00 IST 2018]; root of context hierarchy
+Mar 03, 2018 1:04:00 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@2092e040]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4b11620
+Mar 03, 2018 1:04:00 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4b11620: defining beans [authenticationManager]; root of factory hierarchy
+Mar 03, 2018 1:04:00 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@16d25666: display name [Root WebApplicationContext]; startup date [Sat Mar 03 13:04:00 IST 2018]; root of context hierarchy
+Mar 03, 2018 1:04:00 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@16d25666]: org.springframework.beans.factory.support.DefaultListableBeanFactory@287e48d4
+Mar 03, 2018 1:04:00 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@287e48d4: defining beans [filter,legacy]; root of factory hierarchy
+Mar 03, 2018 1:04:00 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Mar 03, 2018 1:04:00 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+                                                                                                      
